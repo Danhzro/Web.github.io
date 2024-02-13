@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #333;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+}
+
+#noBtn {
+  background-color: #cc6666; /* Color para el botón "No" */
+}
+
+#yesBtn {
+  background-color: #0092cc; /* Color para el botón "Sí" */
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
+
+#catGifContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#catGifContainer img {
+  max-width: 100%;
+}
+
+#catGifContainer h2 {
+  color: #333;
+}
